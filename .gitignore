@@ -1,0 +1,24 @@
+# SkillHub lock file
+.skills_store_lock.json
+
+# Temporary archives
+*.zip
+
+# Python temp scripts in root (not part of any skill)
+enhance_pm_kb.py
+generate_pm_kb.py
+port_minimax.py
+scriptify_all.py
+scriptify_new.py
+scriptify_sdp.py
+skill-doctor-overview.md
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
