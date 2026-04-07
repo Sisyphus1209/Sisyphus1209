@@ -1,0 +1,122 @@
+[
+  {
+    "name": "tid",
+    "value": "01Afdvz0EPlOWPOU38XxRXAFVw6M_5idlJzeqTcWudRQ95",
+    "domain": "passport.weibo.com",
+    "path": "/visitor",
+    "expires": 1806145876,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "PC_TOKEN",
+    "value": "64fd157d79",
+    "domain": ".weibo.com",
+    "path": "/",
+    "expires": 1775389276.589512,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SVB",
+    "value": "_2AkMejsxjf8NxqwFRm_oSxGLgao5wwg7EieKo0j24JRMxHRl-yT9kqm0ytRB6NQ7ijLgehP2Tn04bdIqlXj37f2MgQEwQ",
+    "domain": ".passport.weibo.com",
+    "path": "/",
+    "expires": 1806923476.363014,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUB",
+    "value": "_2AkMejsxjf8NxqwFRm_oSxGLgao5wwg7EieKo0j24JRMxHRl-yT9kqhUctRB6NQ7ijAby0woWWArA61sr_S4I5TQ1iChV",
+    "domain": ".weibo.com",
+    "path": "/",
+    "expires": 1806923476.363066,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SUBP",
+    "value": "0033WrSXqPxfM72-Ws9jqgMF55529P9D9WhovkBB6YRyVIVdKCoOURmT",
+    "domain": ".weibo.com",
+    "path": "/",
+    "expires": 1806923476.363084,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRT",
+    "value": "D.QqHBTrsbTeitTcRtOeYoWrSNUPy643YGOFWYUqP3W-V3MdbbN-0nTZzrNbHi5mYNUCsuPDbhVdYPR3MNAZSK4OW9T%21E85OB3UsWQAQHBiZEqVbyOim%21sPEmoT4ifPX77%2AB.vAflW-P9Rc0lR-ykKDvnJqiQVbiRVPBtS%21r3J8sQVqbgVdWiMZ4siOzu4DbmKPWfU3ShA%21z-dPHuP%21bdSmkDUryP4cs4",
+    "domain": ".passport.weibo.com",
+    "path": "/",
+    "expires": 1809947476.363099,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRF",
+    "value": "1775387476",
+    "domain": ".passport.weibo.com",
+    "path": "/",
+    "expires": 1809947476.363116,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUB",
+    "value": "_2AkMejsxjf8NxqwFRm_oSxGLgao5wwg7EieKo0j24JRMyHRl-yD9kqmEjtRB6NQ7ijCvkzzmJf3f-ZvoRtUSk_NMUdb0j",
+    "domain": ".sina.com.cn",
+    "path": "/",
+    "expires": 1806923476.532783,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SVB",
+    "value": "_2AkMejsxjf8NxqwFRm_oSxGLgao5wwg7EieKo0j24JRMyHRl-yT9kqh0ptRB6NQ7ijGfAOJCJiwUOVIsprZBWEgRARS15",
+    "domain": ".login.sina.com.cn",
+    "path": "/",
+    "expires": 1806923476.53283,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUBP",
+    "value": "0033WrSXqPxfM72-Ws9jqgMF55529P9D9WhovkBB6YRyVIVdKCoOURmT",
+    "domain": ".sina.com.cn",
+    "path": "/",
+    "expires": 1806923476.532852,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "XSRF-TOKEN",
+    "value": "jR76lyxY2ug_mGLRQ-3E1xah",
+    "domain": "weibo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "WBPSESS",
+    "value": "aARFyRVweA_9fj06XqV6aGhK_gmgfr5CMqCrQEjBMYLfNDoszA-x0JaRD40WNuVw_e4yRBV4LKocbn2koHKqoOgDM2-Evw-dHhd9FDvqMhZU0v-Vs4oxkyzB9B0G7O4Y",
+    "domain": "weibo.com",
+    "path": "/",
+    "expires": 1775473876.659841,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "7b2f03424693c701",
+    "type": "split",
+    "children": [
+      {
+        "id": "890379b9f6f8bb14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45cbd3403b39a4c1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1a06126b56d949a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3662cd9eaa718b40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cebd95f8d349848e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "325fae6ae9c9dd75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "33eac5a33c0bc63b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "470930cc6b0a052c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd929c826785b1cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85dcf3f66c9e899d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "862c8b0b4ad5e421",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "eb73c7dfd82b621e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2586ae2240f4678c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b8cdc0a217905dc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "45cbd3403b39a4c1",
+  "lastOpenFiles": [
+    "二总V+问答汇总.md",
+    "078_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "076_餐桌礼仪 二总您好。请问聚餐遇到不会自己转的圆桌，需要一直帮忙慢慢转着吗？.md",
+    "075_要不是咱们国家在强撑着，这运动早就从奥运会里驱逐出去了。除了中国人玩，谁玩？除了.md",
+    "074_二总，有博主说：张雪的成功，其实是对张雪峰的极度否定——您怎么看？认同么.md",
+    "073_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "072_二总，有博主问：为什么美国游客来中国大多满意；中国游客去美国大多失望？——您觉得.md",
+    "071_中国的女子体操女子跳水等等这些项目之所以可以取得那么多金牌，是为啥？你看看欧美那.md",
+    "069_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "068_人是很卑劣很低等的生物。不要对人抱太高期待。我国人民，如果缺少正确的教化，能堕落.md",
+    "066_二总，有博主说：性格不但决定命运，还影响生死——您怎么看？认同么.md",
+    "065_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "064_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "063_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "062_二总，杨笠和邓紫棋在综艺上的争论引发热议，邓紫棋立场： 主张女性需理解男性奋斗的.md",
+    "061_女性话题的影视剧 二总好 不知道二总有没有觉得最近的影视剧，大女主、女性主义主题.md",
+    "060_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "059_这个公司应该没什么存续的可能了。很快就会事实上消失。这种完全依赖创始人个人能力和.md",
+    "058_村田晃大 二总好 日本自卫队在亿军官村田晃大、持刀进入驻日中国大使馆这个事情，二.md",
+    "057_二总，如何看待张雪峰逝世后，微博红人「留几手」称「东北网红数量减一」遭全网炮轰？.md",
+    "056_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "055_大国博弈是要算账的，不是东星和洪兴啊。即便是东星和洪兴，也要算账啊。打起来了大家.md",
+    "054_二总您觉得，有日本网友绝望说： 日本家电输给了中国， 日本半导体输给了中国， 日.md",
+    "053_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "052_二总，有网友说：张雪峰太功利了，都按他教的，那冷门专业基础学科，不就没人学了吗？.md",
+    "051_二总，如何看待「内卷恰恰是阶级尚未固化的明证」的观点？.md",
+    "qa.jsonl"
+  ]
+}
