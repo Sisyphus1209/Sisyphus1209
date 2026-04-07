@@ -20,6 +20,7 @@ Personal collection of custom [Kimi Code CLI](https://github.com/MoonshotAI/Kimi
 |-------|-------------|---------|
 | `netease-playlist` | Automated NetEase Cloud Music playlist generation | "网易云歌单" / "旋律说唱" |
 | `feishu-backup` | Backup & restore Kimi context assets to Feishu Drive | "备份到飞书" / "恢复上下文" |
+| `pdf-compare` | Engineering drawing diff & AI annotation toolkit | "对比图纸" / "PDF diff" / "审图批注" |
 
 ### Meta / Tool Skills
 
