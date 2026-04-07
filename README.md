@@ -21,6 +21,9 @@ Personal collection of custom [Kimi Code CLI](https://github.com/MoonshotAI/Kimi
 | `netease-playlist` | Automated NetEase Cloud Music playlist generation | "网易云歌单" / "旋律说唱" |
 | `feishu-backup` | Backup & restore Kimi context assets to Feishu Drive | "备份到飞书" / "恢复上下文" |
 | `pdf-compare` | Engineering drawing diff & AI annotation toolkit | "对比图纸" / "PDF diff" / "审图批注" |
+| `news-assistant` | AI news secretary with scheduled RSS & Elon monitoring | "早间新闻" / "新闻秘书" / "马斯克动态" |
+| `weibo-crawler` | Manual-control Weibo V+ Q&A scraper | "抓取微博问答" / "V+ 问答" / "二总问答" |
+| `watermark-killer` | PDF/image watermark removal toolkit | "去水印" / "PDF 去水印" / "kill watermark" |
 
 ### Meta / Tool Skills
 
