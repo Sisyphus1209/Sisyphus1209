@@ -1,0 +1,30 @@
+{
+  "name": "英文旋律说唱",
+  "description": "Melodic rap / trap-soul / emo rap，英文为主",
+  "default_count": 20,
+  "search_limit": 8,
+  "keywords": [
+    "melodic rap",
+    "Juice WRLD",
+    "Lil Uzi Vert",
+    "Travis Scott",
+    "Post Malone",
+    "Drake",
+    "XXXTentacion",
+    "Lil Peep",
+    "Roddy Ricch",
+    "Gunna",
+    "Future",
+    "Young Thug",
+    "Polo G",
+    "Lil Durk",
+    "Kid Cudi",
+    "Machine Gun Kelly rap",
+    "Iann Dior",
+    "24kGoldn",
+    "The Kid LAROI",
+    "Trippie Redd"
+  ],
+  "exclude_artists": [],
+  "notes": "侧重旋律性强、适合vibe coding或创作时听的英文说唱"
+}

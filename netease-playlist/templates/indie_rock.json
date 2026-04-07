@@ -1,0 +1,25 @@
+{
+  "name": "独立摇滚",
+  "description": "Indie rock / alternative rock",
+  "default_count": 15,
+  "search_limit": 8,
+  "keywords": [
+    "indie rock",
+    "alternative rock",
+    "Arctic Monkeys",
+    "The 1975",
+    "Radiohead",
+    "Oasis",
+    "Blur",
+    "Cage the Elephant",
+    "Foster the People",
+    "Two Door Cinema Club",
+    "Vampire Weekend",
+    "Tame Impala",
+    "M83",
+    "Phoenix",
+    "MGMT"
+  ],
+  "exclude_artists": [],
+  "notes": "节奏明快、适合写代码时听的独立摇滚"
+}

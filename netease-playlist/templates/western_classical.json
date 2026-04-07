@@ -1,0 +1,25 @@
+{
+  "name": "西方古典",
+  "description": "Western classical music only. 明确排除中国传统音乐（古筝/古琴/二胡/琵琶/广陵散等）。",
+  "default_count": 6,
+  "search_limit": 6,
+  "keywords": [
+    "Mozart",
+    "Beethoven",
+    "Chopin",
+    "Bach",
+    "Vivaldi",
+    "Tchaikovsky",
+    "Schubert",
+    "Debussy",
+    "Handel",
+    "Haydn",
+    "Schumann",
+    "Liszt",
+    "Brahms",
+    "Dvorak",
+    "Mendelssohn"
+  ],
+  "exclude_keywords": ["古筝", "古琴", "二胡", "琵琶", "笛子", "唢呐", "广陵散", "中国传统", "民乐", "国风"],
+  "notes": "如果发现搜索结果混入中国传统音乐，必须立即丢弃并换关键词重搜"
+}
