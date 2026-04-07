@@ -1,0 +1,118 @@
+schema: skill-harness-v1
+name: skill-doctor
+description: Agent Skill 健康扫描规则集
+
+surfaces:
+  - id: structure
+    label: 结构完整性
+    summary: 检查 SKILL.md 和必要的目录结构是否存在且完整
+    overview:
+      - id: skill-md
+        label: SKILL.md
+        source: file_exists
+        path: SKILL.md
+      - id: frontmatter
+        label: Frontmatter 完整
+        source: regex_match
+        file: SKILL.md
+        patterns:
+          - '^---\s*$'
+          - '^name:\s+\S+'
+          - '^description:\s*\|?'
+        match_all: true
+      - id: references-dir
+        label: References 目录
+        source: dir_exists
+        path: references
+        optional: true
+      - id: research-files
+        label: Research 文件集
+        source: file_count
+        path: references/research
+        min: 6
+        optional: true
+    warnings:
+      - references-dir: "缺少 references/ 目录，说明不是 nuwa 生成的完整 skill"
+      - research-files: "调研文件不足 6 个，可能缺少某个 Agent 维度的输出"
+
+  - id: content
+    label: 内容质量
+    summary: 检查 SKILL.md 中是否包含必要的章节和表达规范
+    overview:
+      - id: role-rules
+        label: 角色扮演规则
+        source: section_exists
+        file: SKILL.md
+        heading_pattern: '##? 角色扮演规则|##? 使用说明|##? Usage|##? How to use'
+        optional: true
+      - id: mental-models
+        label: 心智模型章节
+        source: section_exists
+        file: SKILL.md
+        heading_pattern: '##? 核心心智模型|##? 心智模型'
+        optional: true
+      - id: honesty-boundary
+        label: 诚实边界
+        source: section_exists
+        file: SKILL.md
+        heading_pattern: '##? 诚实边界|##? 局限性|##? 边界|##? Limitations|##? Caveats|##? Known Issues|##? 免责声明'
+        optional: true
+      - id: citation-discipline
+        label: 引用规范（KB类 skill）
+        source: regex_match
+        file: SKILL.md
+        patterns:
+          - '来源[:：]'
+          - '→\s*来源'
+        match_any: true
+        optional: true
+      - id: model-count
+        label: 心智模型数量
+        source: section_count
+        file: SKILL.md
+        section_pattern: '^### 模型\d+|^### .*心智模型|^### .*模型'
+        min: 3
+        max: 7
+        optional: true
+    warnings:
+      - mental-models: "缺少心智模型章节，可能不是 perspective skill"
+      - honesty-boundary: "缺少诚实边界，回答容易产生幻觉"
+      - citation-discipline: "缺少来源引用规范，本地 KB skill 容易编造"
+      - model-count: "心智模型数量不在 3-7 范围内，过多或过少"
+
+  - id: links
+    label: 链接健康
+    summary: 检查内部链接是否指向存在的本地文件
+    overview:
+      - id: internal-links
+        label: 内部链接可解析
+        source: link_resolve
+        file: SKILL.md
+        base_dir: .
+        optional: true
+
+outputs:
+  report_template: |
+    # Skill Doctor 健康报告
+
+    > 扫描时间: {generated_at}
+    > 目标 Skill: {skill_name}
+    > 路径: {skill_path}
+
+    ## 评分摘要
+
+    {score_section}
+
+    ## 详细检查结果
+
+    {details_section}
+
+    ## 治理循环图
+
+    ```mermaid
+    {mermaid_graph}
+    ```
+
+    ## 建议行动
+
+    {action_section}
